@@ -1,0 +1,72 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: rebeccapurple;
+}
+
+.container {
+    margin-top: 30px;
+}
+        
+h1 {
+    text-align: center;
+    color: #E6E6FA;
+}
+.card {
+    margin-top: 20px;
+}
+        
+.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #8A2BE2; /* Purple background color */
+    border-color: #8A2BE2; /* Border color for buttons */
+    color: white; /* Text color for buttons */
+}
+
+.btn-primary:hover {
+    background-color: #6A0DAD; /* Darker purple when hovered */
+    border-color: #6A0DAD; /* Border color when hovered */
+}
+
+.btn-secondary {
+    background-color: #FF6347; /* Tomato color */
+    border-color: #FF6347; /* Border color for REFRESH button */
+    color: white; /* Text color for the REFRESH button */
+}
+
+.btn-secondary:hover {
+    background-color: #FF4500; /* Darker tomato color when hovered */
+    border-color: #FF4500; /* Border color for REFRESH button on hover */
+}
+
+        
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #E6E6FA;
+    border-top: 2px solid #E6E6FA;
+    padding-top: 10px;
+}
+
+.highlighted {
+    border: 2px solid #AF69EE; 
+    padding: 5px;
+    background-color: #E6E6FA; 
+}
+
+.card {
+    margin-top: 20px;
+    border: 1px solid #E6E6FA;  /* Add border around the card */
+    border-radius: 8px;  /* Rounded corners */
+    padding: 20px;  /* Add padding inside the card */
+    background-color: #E6E6FA;  /* Set a light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Add a subtle shadow */
+}
+
+.card-title {
+    color: #AF69EE; /* Heading color inside the card */
+}
